@@ -1,5 +1,5 @@
-gunicorn
+
 Flask==2.1.1
 Werkzeug==2.0.3
 Flask-WTF==0.15.1
-gunicorn your_application.wsgi
+gunicorn app.wsgi
